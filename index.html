@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dGcvrCC5cQA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!-- Video Information -->
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#아이키</li>
+            <li>#립제이</li>
+            <li>#모니카</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >YOUNG한 에너지는 부족하다 YOUNG한 에너지는 부족하다YOUNG한
+              에너지는 부족하다YOUNG한 에너지는 부족하다YOUNG한 에너지는
+              부족하다YOUNG한 에너지는 부족하다YOUNG한 에너지는 부족하다</span
+            >
+            <button class="moreBtn clicked">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="views">
+            <span class="visit">조회수 485,266회</span>
+            <span class="divider"></span>
+            <span class="date">2021. 9. 20.</span>
+          </div>
+        </div>
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i>
+              <span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-thumbs-down"></i>
+              <span>0</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-share"></i>
+              <span>Share</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-plus"></i>
+              <span>Save</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i>
+              <span>Report</span>
+            </button>
+          </li>
+        </ul>
+
+        <!-- channel Description -->
+
+        <div class="channel">
+          <div class="metadata">
+            <img
+              src="https://yt3.ggpht.com/1LUwr_qxnAZ-nAGCsSC8tKhuwTpVgcCj0Az4AjIIx44EOyiwwl1dNYNrz9xQmiz-O3Qve3bk7Q=s48-c-k-c0x00ffffff-no-rj"
+            />
+            <div class="info">
+              <span class="name">조씨Jossi</span>
+              <span class="subscribers">7.53M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up Next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img">
+              <img
+                src="https://i.ytimg.com/an_webp/ZwrhqwXeynw/mqdefault_6s.webp?du=3000&sqp=CJShq4oG&rs=AOn4CLBvwQ7a0nBr80J9TCaVBMPpQkEt8Q"
+              />
+            </div>
+            <div class="info">
+              <span class="title">👑QUEENDOM👑</span>
+              <span class="name"> 조씨Jossi</span>
+              <span class="views">조회수 3.9M views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img
+                src="https://i.ytimg.com/an_webp/qxs8uYqhRog/mqdefault_6s.webp?du=3000&sqp=CPi8q4oG&rs=AOn4CLD5fSHrUTERuG9EFcAg350AYYpTGg"
+              />
+            </div>
+            <div class="info">
+              <span class="title">노제 NOZE</span>
+              <span class="name"> 조씨Jossi</span>
+              <span class="views">조회수 15.0M views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img
+                src="https://i.ytimg.com/an_webp/tVqPM1Nj5Sk/mqdefault_6s.webp?du=3000&sqp=CIO5q4oG&rs=AOn4CLA9QQdOLG_maDShjQDqL0-_GP6AiA"
+              />
+            </div>
+            <div class="info">
+              <span class="title">시미즈 SIMEEZ</span>
+              <span class="name"> 조씨Jossi</span>
+              <span class="views">조회수 4.9M views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
